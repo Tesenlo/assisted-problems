@@ -1,5 +1,6 @@
 package cameraRental;
 
+
 public class UserDetails {
 	private String username;
 	private String password;
@@ -30,5 +31,6 @@ public class UserDetails {
 	public String toString() {
 		return "UserDetails [username=" + username + ", password=" + password + "]";
 	}
+	
 
 }

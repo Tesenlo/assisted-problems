@@ -11,12 +11,12 @@ public class CameraDetails {
 
 	public CameraDetails(String brand, String model, float PerDayRentalAmount){
 		
-		this.id = count;
+		this.id = count++;
 		this.brand = brand;
 		this.model = model;
 		this.perDayRentalAmount = PerDayRentalAmount;
 		this.status = "Available";
-		count++;	
+			
 		
 	}
 
@@ -42,7 +42,7 @@ public class CameraDetails {
 
 	@Override
 	public String toString() {
-		return id+"\t\t"+brand+"\t"+model+"\t"+perDayRentalAmount+"\t\t"+status;
+		return id+"\t\t"+brand+"\t\t"+model+"\t"+perDayRentalAmount+"\t\t"+status;
 	}
 
 	public int getCount() {
